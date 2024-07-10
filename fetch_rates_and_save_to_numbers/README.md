@@ -19,14 +19,14 @@ Add AppleScript menu to Menu bar:
    - Checked "show Script menu in Menu bar"
    - Closed preferences.
 
-![image](/docs/img/applescript_in_menu_bar.png)
+<img src="/docs/img/applescript_in_menu_bar.png" width="300"/>
 
 Move `fetch_rates.scpt` to `/Users/YOU_USERNAME/Library/Scripts/Applications/Numbers`.
 
 Open `Numbers` and run script from AppleScript.
 
-![image](/docs/img/run_script.png)
+<img src="/docs/img/run_script.png" width="300"/>
 
 Done!
 
-![image](/docs/img/done.png)
+<img src="/docs/img/done.png" width="400"/>
