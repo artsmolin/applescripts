@@ -46,11 +46,6 @@ on getRateFromCoingate(market)
 end getRateFromCoingate
 
 
-on setToCell()
-    return
-end setToCell
-
-
 on replaceText(theString, searchString, replaceString)
     set AppleScript's text item delimiters to searchString
     set theStringItems to every text item of theString
