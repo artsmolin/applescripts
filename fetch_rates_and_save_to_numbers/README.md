@@ -7,14 +7,14 @@ Set your values in the "CONFIG" block in the `fetch_rates.scpt` file.
 
 ---
 
-## Running from terminal
+## Running via terminal
 ```shell
 osascript /path/to/script.scpt
 ```
 
 ---
 
-## Running from UI
+## Running via UI
 Add AppleScript menu to Menu bar:
    - Opened AppleScript Editor.
    - Went AppleScript Editor > Preferences.
