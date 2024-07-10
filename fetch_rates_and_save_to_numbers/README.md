@@ -1,18 +1,20 @@
 
-## Usage
-### Preparation
+## Preparation
 Set your values in the "CONFIG" block in the `fetch_rates.scpt` file.
 
 > IMPORTANT!
 > Before running the script, the table must already exist in Numbers.
 
-### Running
-#### From terminal
+---
+
+## Running from terminal
 ```shell
 osascript /path/to/script.scpt
 ```
 
-#### From UI
+---
+
+## Running from UI
 Add AppleScript menu to Menu bar:
    - Opened AppleScript Editor.
    - Went AppleScript Editor > Preferences.
