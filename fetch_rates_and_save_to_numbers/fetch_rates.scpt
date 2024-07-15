@@ -12,7 +12,10 @@ set RATES_TABLE to "Your Table Name"
 -- ----------------------------------------------------------------------------
 -- Fetch rates
 set RATE_USDT_RUB to getRateFromCoingate("USDT/RUB")
+set RATE_USDT_RUB_CELL to "B2"
+
 set RATE_ETH_USDT to getRateFromCoingate("ETH/USDT")
+set RATE_ETH_USDT_CELL to "C3"
 
 tell application "Numbers"
     activate
@@ -24,8 +27,8 @@ tell application "Numbers"
         tell sheet RATES_SHEET
             tell table RATES_TABLE
                 -- Save rates to Numbers
-                set value of cell "B2" to RATE_USDT_RUB
-                set value of cell "C3" to RATE_ETH_USDT
+                set value of cell RATE_USDT_RUB_CELL to RATE_USDT_RUB
+                set value of cell RATE_ETH_USDT_CELL to RATE_ETH_USDT
             end tell
         end tell
     end tell
