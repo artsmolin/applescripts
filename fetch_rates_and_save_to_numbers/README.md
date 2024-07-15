@@ -1,16 +1,26 @@
 
 ## Preparation
-Set your values in the "CONFIG" block in the `fetch_rates.scpt` file.
-
 > IMPORTANT!
 > 
 > Before running the script, the table must already exist in Numbers.
+
+Install script:
+```shell
+git clone https://github.com/artsmolin/applescripts.git
+
+cp applescripts/fetch_rates_and_save_to_numbers/fetch_rates.scpt ~/Library/Scripts/Applications/Numbers
+```
+
+Set your values in the "CONFIG" block in the `fetch_rates.scpt` file:
+```shell
+nano ~/Library/Scripts/Applications/Numbers/fetch_rates.scpt
+````
 
 ---
 
 ## Running via terminal
 ```shell
-osascript /path/to/script.scpt
+osascript ~/Library/Scripts/Applications/Numbers/fetch_rates.scpt
 ```
 
 ---
