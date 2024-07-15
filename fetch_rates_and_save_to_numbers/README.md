@@ -24,7 +24,7 @@ Add AppleScript menu to Menu bar:
 
 <img src="/docs/img/applescript_in_menu_bar.png" width="300"/>
 
-Move `fetch_rates.scpt` to `/Users/YOU_USERNAME/Library/Scripts/Applications/Numbers`.
+Move `fetch_rates.scpt` to `~/Library/Scripts/Applications/Numbers`.
 
 Open `Numbers` and run script from AppleScript.
 
